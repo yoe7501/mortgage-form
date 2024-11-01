@@ -1,0 +1,51 @@
+
+
+
+
+.result{
+    @apply bg-slate-900 text-white text-center flex flex-col justify-center items-center p-3 w-full rounded-r-lg lg:h-[424px]
+}
+
+label{
+    @apply text-slate-500
+}
+span {
+    @apply bg-slate-300
+}
+
+.input{
+    @apply flex flex-row w-full rounded-md hover:ring-1 hover:ring-lime
+}
+
+input{
+    @apply border  rounded-md focus:outline-none focus:ring-1 focus:ring-lime
+}
+
+.radioButton{
+    @apply flex flex-row border border-slate-300 w-full justify-start gap-3 p-1 pl-3 rounded-md outline-none hover:ring-1  hover:ring-lime 
+    
+
+}
+.selected{
+    @apply bg-lime
+}
+
+.radioLabel{
+    @apply font-semibold text-black/60
+}
+
+.button{
+    @apply bg-lime hover:bg-lighterLime flex flex-row items-center gap-5 px-3 h-10 rounded-full w-[314px] my-3
+}
+
+.formContainer{
+    @apply p-4 bg-white sm:rounded-t-lg w-full
+}
+
+.showResult{
+    @apply bg-slate-700 text-white p-5 h-fit lg:h-[424px] lg:rounded-md lg:rounded-bl-3xl
+}
+
+.repaymentBox{
+    @apply bg-slate-900 p-8 rounded-lg
+}
