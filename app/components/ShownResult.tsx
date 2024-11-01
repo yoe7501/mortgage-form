@@ -7,7 +7,7 @@ const ShownResult = () => {
     <Illustration />
     <h1 className="font-semibold text-xl">Results shown here</h1>
     <p className="text-center text-slate-400">
-      Complete the form and click "calculate repayments" to see what you
+      Complete the form and click -calculate repayments- to see what you
       monthly replayments would be.
     </p>
   </div>

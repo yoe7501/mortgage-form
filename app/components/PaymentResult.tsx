@@ -22,13 +22,13 @@ const PaymentResult = ({data} : Props) => {
     <div className='showResult'>
     <header className=''>
         <h1 >Your Results</h1>
-        <p className='py-3'>Your results are shown below based on the information you provided. To adjust the results, edit the form and click "calculate repayments" again.</p>
+        <p className='py-3'>Your results are shown below based on the information you provided. To adjust the results, edit the form and click -calculate repayments- again.</p>
     </header>
     <div className='repaymentBox'>
         <p className='text-slate-400 text-sm pb-2' >Your monthly repayments</p>
         <p className='text-5xl text-lime font-bold pb-5'>${payments}</p>
         <hr className='p-5 '/>
-        <p className='text-slate-400 text-sm pb-2'>Total you'll repay over the term</p>
+        <p className='text-slate-400 text-sm pb-2'>Total you will repay over the term</p>
         <p className='font-bold'>${total}</p>
     </div>
     </div>
